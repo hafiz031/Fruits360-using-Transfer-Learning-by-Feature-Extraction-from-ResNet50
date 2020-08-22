@@ -1,0 +1,132 @@
+[INFO] tuning hyperparameters...
+[INFO] best hyperparameters: {'C': 1.0}
+[INFO] evaluating...
+                     precision    recall  f1-score   support
+
+     Apple Braeburn       1.00      1.00      1.00        10
+ Apple Crimson Snow       1.00      1.00      1.00        11
+     Apple Golden 1       1.00      1.00      1.00        13
+     Apple Golden 2       1.00      1.00      1.00        13
+     Apple Golden 3       1.00      1.00      1.00        12
+ Apple Granny Smith       1.00      1.00      1.00        12
+    Apple Pink Lady       1.00      1.00      1.00        12
+        Apple Red 1       1.00      1.00      1.00        10
+        Apple Red 2       1.00      1.00      1.00        14
+        Apple Red 3       1.00      1.00      1.00        10
+Apple Red Delicious       1.00      1.00      1.00         9
+ Apple Red Yellow 1       1.00      1.00      1.00        11
+ Apple Red Yellow 2       1.00      1.00      1.00        14
+            Apricot       1.00      1.00      1.00        18
+            Avocado       1.00      1.00      1.00        11
+       Avocado ripe       1.00      1.00      1.00        16
+             Banana       1.00      1.00      1.00        15
+ Banana Lady Finger       1.00      1.00      1.00        13
+         Banana Red       1.00      1.00      1.00         9
+           Beetroot       1.00      1.00      1.00         9
+          Blueberry       1.00      1.00      1.00        10
+       Cactus fruit       1.00      1.00      1.00        14
+       Cantaloupe 1       1.00      1.00      1.00         9
+       Cantaloupe 2       1.00      1.00      1.00        14
+          Carambula       1.00      1.00      1.00         9
+        Cauliflower       1.00      1.00      1.00        21
+           Cherry 1       1.00      1.00      1.00         8
+           Cherry 2       1.00      1.00      1.00        17
+     Cherry Rainier       1.00      1.00      1.00        16
+   Cherry Wax Black       1.00      1.00      1.00        13
+     Cherry Wax Red       1.00      1.00      1.00        10
+  Cherry Wax Yellow       1.00      1.00      1.00        17
+           Chestnut       1.00      1.00      1.00         9
+         Clementine       1.00      1.00      1.00        11
+              Cocos       1.00      1.00      1.00        12
+              Dates       1.00      1.00      1.00        12
+           Eggplant       1.00      1.00      1.00         9
+        Ginger Root       1.00      1.00      1.00         7
+         Granadilla       1.00      1.00      1.00        12
+         Grape Blue       1.00      1.00      1.00        24
+         Grape Pink       1.00      1.00      1.00         9
+        Grape White       1.00      1.00      1.00        10
+      Grape White 2       1.00      1.00      1.00        11
+      Grape White 3       1.00      1.00      1.00        14
+      Grape White 4       1.00      1.00      1.00        11
+    Grapefruit Pink       1.00      1.00      1.00        13
+   Grapefruit White       1.00      1.00      1.00        12
+              Guava       1.00      1.00      1.00        10
+           Hazelnut       1.00      1.00      1.00        13
+        Huckleberry       1.00      1.00      1.00         7
+               Kaki       1.00      1.00      1.00        13
+               Kiwi       1.00      1.00      1.00        19
+           Kohlrabi       1.00      1.00      1.00        16
+           Kumquats       1.00      1.00      1.00        14
+              Lemon       1.00      1.00      1.00        10
+        Lemon Meyer       1.00      1.00      1.00        15
+              Limes       1.00      1.00      1.00        11
+             Lychee       1.00      1.00      1.00        13
+          Mandarine       1.00      1.00      1.00        12
+              Mango       1.00      1.00      1.00        11
+          Mango Red       0.92      1.00      0.96        11
+          Mangostan       1.00      1.00      1.00         5
+           Maracuja       1.00      1.00      1.00         8
+ Melon Piel de Sapo       1.00      1.00      1.00        25
+           Mulberry       1.00      1.00      1.00        10
+          Nectarine       1.00      1.00      1.00         8
+     Nectarine Flat       1.00      1.00      1.00        22
+         Nut Forest       1.00      1.00      1.00        16
+          Nut Pecan       1.00      1.00      1.00        13
+          Onion Red       1.00      1.00      1.00        11
+   Onion Red Peeled       1.00      1.00      1.00         7
+        Onion White       1.00      1.00      1.00        13
+             Orange       1.00      1.00      1.00        19
+             Papaya       1.00      1.00      1.00        15
+      Passion Fruit       1.00      1.00      1.00        12
+              Peach       1.00      1.00      1.00        15
+            Peach 2       1.00      1.00      1.00        14
+         Peach Flat       1.00      1.00      1.00        11
+               Pear       1.00      1.00      1.00        13
+         Pear Abate       1.00      1.00      1.00        12
+       Pear Forelle       1.00      1.00      1.00        12
+        Pear Kaiser       1.00      1.00      1.00        12
+       Pear Monster       1.00      1.00      1.00        14
+           Pear Red       1.00      1.00      1.00        20
+      Pear Williams       1.00      1.00      1.00        16
+             Pepino       1.00      1.00      1.00        14
+       Pepper Green       1.00      1.00      1.00        13
+         Pepper Red       1.00      1.00      1.00        18
+      Pepper Yellow       1.00      1.00      1.00        13
+           Physalis       1.00      1.00      1.00        12
+ Physalis with Husk       1.00      1.00      1.00        11
+          Pineapple       1.00      1.00      1.00        13
+     Pineapple Mini       1.00      1.00      1.00        11
+       Pitahaya Red       1.00      1.00      1.00        15
+               Plum       1.00      1.00      1.00         9
+             Plum 2       1.00      1.00      1.00        16
+             Plum 3       1.00      1.00      1.00        25
+        Pomegranate       1.00      1.00      1.00        12
+     Pomelo Sweetie       1.00      1.00      1.00        11
+         Potato Red       1.00      1.00      1.00        18
+  Potato Red Washed       1.00      0.93      0.97        15
+       Potato Sweet       1.00      1.00      1.00        15
+       Potato White       1.00      1.00      1.00         9
+             Quince       1.00      1.00      1.00         4
+           Rambutan       1.00      1.00      1.00        14
+          Raspberry       1.00      1.00      1.00        13
+         Redcurrant       1.00      1.00      1.00        12
+              Salak       1.00      1.00      1.00        20
+         Strawberry       1.00      1.00      1.00        11
+   Strawberry Wedge       1.00      1.00      1.00        23
+          Tamarillo       1.00      1.00      1.00        18
+            Tangelo       1.00      1.00      1.00        10
+           Tomato 1       1.00      1.00      1.00        16
+           Tomato 2       1.00      1.00      1.00        12
+           Tomato 3       1.00      1.00      1.00        15
+           Tomato 4       1.00      1.00      1.00         9
+  Tomato Cherry Red       1.00      1.00      1.00         9
+      Tomato Maroon       1.00      1.00      1.00         8
+      Tomato Yellow       1.00      1.00      1.00        15
+             Walnut       1.00      1.00      1.00        15
+
+           accuracy                           1.00      1548
+          macro avg       1.00      1.00      1.00      1548
+       weighted avg       1.00      1.00      1.00      1548
+
+[INFO] score: 0.9993540051679587
+[INFO] saving model...
