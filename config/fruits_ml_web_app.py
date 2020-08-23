@@ -7,7 +7,6 @@ PROJECT_BASE = '' # please change it according to where the whole project reside
 
 # define the path to the images directory
 IMAGES_PATH = PROJECT_BASE + '/Train'
-# since we do not have access to validation data we need to take a number of images from train and test on them
 NUM_CLASSES = 120
 BATCH_SIZE = 16
 BUFFER_SIZE = 1000
