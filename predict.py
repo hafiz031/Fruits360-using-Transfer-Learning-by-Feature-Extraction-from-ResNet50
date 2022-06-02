@@ -5,11 +5,11 @@ Created on Tue Apr 28 00:09:07 2020
 @author: Hafiz
 """
 from imutils import paths
-from keras.preprocessing.image import load_img
-from keras.preprocessing.image import img_to_array
-from keras.applications import imagenet_utils
+from tensorflow.keras.preprocessing.image import load_img
+from tensorflow.keras.preprocessing.image import img_to_array
+from tensorflow.keras.applications import imagenet_utils
 import numpy as np
-from keras.applications import ResNet50
+from tensorflow.keras.applications import ResNet50
 import pickle
 #from io_.hdf5datasetgenerator import HDF5DatasetGenerator
 #import config.fruits_ml_web_app as config
@@ -26,7 +26,8 @@ model = ResNet50(weights='imagenet', include_top = False)
 #features = model.predict_generator(submissionGen.generator(images_only = True), steps= np.int(np.ceil(submissionGen.numImages / bs)), callbacks=None, max_queue_size= 2 * bs, workers=1, use_multiprocessing=False, verbose=1)
 #print(features.shape)
 
-imagePath = r"/Test/Apple Braeburn/3_100.jpg" # Enter image direcotry
+# imagePath = r"/Test/Apple Braeburn/3_100.jpg" # Enter image direcotry
+imagePath = r"Test/mango.jpg" # Enter image direcotry
 image = load_img(imagePath, target_size = (224, 224))
 image = img_to_array(image)
 

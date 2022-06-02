@@ -2,13 +2,13 @@
 
 The project is basically the solution to the fruits detection and the dataset is collected from: https://www.kaggle.com/moltean/fruits
 
-# Solution approach:
+## Solution approach:
 
 -> It is a transfer learning based approach of solving this classification problem
 -> A pretrained ResNet50 model (pretrained on ImageNet Dataset) is taken as a feature extractor 
 -> Using the feature vector a logistic regression classifier is trained on it for making the final detection
 
-# Training
+## Training
 
 -> The first step is to download the dataset, so after downloading the dataset extract them inside the corresponding 	Train and Test folders. The folders are kept empty right now (only having the snapshots showing how the folder should look like after putting the datasets inside of them. 
 You can downlaod the dataset from: https://www.kaggle.com/moltean/Fruits
@@ -27,7 +27,7 @@ You can downlaod the dataset from: https://www.kaggle.com/moltean/Fruits
 -> The model was developed in standalone keras. If you are using Tensorflow-keras then change all 'keras' to tensorflow.keras
 
 
-# Project structure:
+## Project structure:
 
 ├── config
 │   ├── fruits_ml_web_app.py
