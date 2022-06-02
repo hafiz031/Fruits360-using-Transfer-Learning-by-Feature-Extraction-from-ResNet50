@@ -28,7 +28,7 @@ You can downlaod the dataset from: https://www.kaggle.com/moltean/Fruits
 
 
 ## Project structure:
-
+```
 ├── config
 │   ├── fruits_ml_web_app.py
 │   └── __pycache__
@@ -54,3 +54,4 @@ You can downlaod the dataset from: https://www.kaggle.com/moltean/Fruits
 └── train_model.py
 
 6 directories, 17 files
+```
